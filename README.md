@@ -25,7 +25,11 @@ Customer Interface
 The customer interface allows the user to view the current inventory of store items. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. If the desired quantity is not available, the user is prompt insufficient quantity.
 
 
+The manager interface
+
+
 The manager interface presents a list of four options, as below.
+
 ❯ View Products for Sale 
   View Low Inventory 
   Add to Inventory 
