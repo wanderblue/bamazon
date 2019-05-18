@@ -3,9 +3,12 @@
 
 Bamazon
 Description
+
 This application will take in orders from customers and deplete stock from the store's inventory using the npm inquirer package and the MySQL database backend together with the npm mysql package. The application presents two interfaces: customer and manager.
 
 MySQL Database Setup
+
+
 Bamazon database and the products table were created with the SQL code found in Bamazon.sql. 
 The products table should have each of the following columns:
 sku (unique id for each product)
@@ -17,6 +20,8 @@ stock_quantity (how much of the product is available in stores)
 then you will be ready to proceed with running the Bamazon customer and manager interfaces.
 
 Customer Interface
+
+
 The customer interface allows the user to view the current inventory of store items. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. If the desired quantity is not available, the user is prompt insufficient quantity.
 
 
